@@ -1,12 +1,9 @@
 import { comments } from "../data/comments"
-import CommentSection from "./CommentSection";
-
-
 
 const Post = () => {
 
     return (
-        <div className="space-y-2">
+        <div className="space-y-2 ">
 
             {/* image and name */}
             <div className="flex space-x-2 items-center">
@@ -15,15 +12,14 @@ const Post = () => {
             </div>
 
             {/* status message */}
-            <p>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</p>
+            <p>ทำได้หมดยกเว้น map แงแง แสดงลำดับถูก ใส่ข้อมูลถูก 
+                ซ่อนปุ่มไลค์แต่ทำแบบไม่ได้แมพ อย่างน้อยก็มีคะแนนหมดยกเว้น map นะพี่อาร์ม :)</p>
 
             {/* like section */}
             <div className='flex items-center'>
                 <img className='w-4 h-4 mr-1' src='/like.svg'></img>
-                <p className='text-gray-500'>100 คน</p>
+                <p className='text-gray-500'>987 คน</p>
             </div>
-            <CommentSection/>
-
         </div>
 
     )

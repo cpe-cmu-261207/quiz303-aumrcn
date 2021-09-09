@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { comments } from './data/comments';
 import Post from './components/Post';
+import NormalComment from './components/NormalComment';
 
 function App() {
   return (
@@ -12,18 +12,8 @@ function App() {
 
         {/* ส่วนของเจ้าของ post */}
         <Post/>
+        <NormalComment/>
 
-        {/* comments section */}
-        <div className="">
-
-          {/* normal comment */}
-          
-
-          {/* replies */}
-          {/* ต่างกันตรงที่มี padding มากกว่าเท่านั้น (pl-14) */}
-          
-
-        </div>
 
       </div>
     </div>
